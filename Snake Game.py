@@ -10,8 +10,8 @@ high_score = 0
 
 # Set up the screen
 wn = turtle.Screen()
-wn.title("Igra bre")
-wn.bgcolor("blue")
+wn.title("Snake Game")
+wn.bgcolor("black")
 wn.setup(width=600, height=600)
 wn.tracer(0)  # Turns off the screen updates
 
@@ -19,7 +19,7 @@ wn.tracer(0)  # Turns off the screen updates
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("black")
+head.color("yellow")
 head.penup()
 head.goto(0, 0)
 head.direction = "stop"
